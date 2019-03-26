@@ -45,10 +45,12 @@ If you find a bug, or want a new feature added, please submit it on the [Github 
 
 1. Open terminal
 2. Clone the repo: `git clone git@github.com:MyEtherWallet/MyEtherWallet.git`
-3. run `npm i` to install node packages.
-4. run `npm run build`. You can also use the offline version by opening the index file from the dist folder with your preferred browser
-5. start `npm start`
-6. App should be running in `https://localhost:8080`
+3. Install dependencies using your fav package manager.  For example using `brew` this command: `brew install pkg-config cairo pango libpng jpeg giflib librsvg`.  This will install all required deps for the canvas npm pkg.
+4. Add the following to your ~/.profile `export PKG_CONFIG_PATH="/usr/local/opt/libffi/lib/pkgconfig/:/usr/local/lib/pkgconfig"`.  Open a new shell to ensure this environment variable is picked up, execute next steps in new shell.
+4. run `npm i` to install node packages.
+5. run `npm run build`. You can also use the offline version by opening the index file from the dist folder with your preferred browser
+6. start `npm start`
+7. App should be running in `https://localhost:8080`
 
 ## Developers
 
