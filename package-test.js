@@ -53,4 +53,3 @@ const looper = () => {
     })
     .then(looper);
 };
-looper();
